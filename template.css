@@ -1,0 +1,46 @@
+<style>
+
+ 
+h2 {
+    color:blue;
+	outline-style: solid;
+    border: 5px solid black;
+    background: orange;
+}
+table{
+  border: 1px solid purple;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  
+}
+h2 {
+    color:blue;
+	outline-style: solid;
+    border: 5px solid black;
+    background: orange;
+}
+h3 {
+	color: blue;
+	text-decoration: underline;
+	font-style: oblique;
+	}
+td, th {
+  border: 1px solid purple;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid purple;
+   
+}
+#outline{
+	 outline-style: solid;
+	 outline-color: red;
+	 background: lightblue;
+}
+img {
+	width: 10%;
+
+ }
+
+
+</style>

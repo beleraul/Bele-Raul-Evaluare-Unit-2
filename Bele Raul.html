@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="template.css">
+</head>
+<body>
+
+<h2 id="heading1">Raul-Antonio BELE </h2>
+<p><a href="https://eur.delve.office.com/?u=2ebd3d23-5742-4677-94ea-4acf0f97b5a3&v=work">bele.va.raul@utcluj.didatec.ro</a></p> 
+<h3>Specificatii tehnice ale statiei principale de lucru  </h3> 
+<table>
+  <tr>
+    <th>Denumire componenta</th>
+    <th>Parametri</th>
+    <th>Producător</th>
+  </tr>
+  <tr>
+    <td>Procesor</td>
+    <td>3.9 GHz</td>
+    <td>Intel</td>
+  </tr>
+  <tr>
+    <td>Placa video</td>
+    <td></td>
+    <td>Intel</td>
+  </tr>
+  <tr>
+    <td>Chipset video</td>
+    <td></td>
+    <td>Intel Iris</td>
+  </tr>
+  <tr>
+    <td>Memorie</td>
+    <td>8GB DDR4</td>
+    <td></td>
+  </tr>
+</table>
+<div id="outline">
+<h3>Structura retelei personale si accesul la internet</h3>
+<img src="imagine diagrama.jpg">
+<h3>Caracteristicile conexiunii la retea</h3>
+<p>a) Adresa MAC: 9C-FC-E8-AE-BF-E6</p>
+<p>b) Adresa IP: 192.168.1.4</p>
+<p>c) Debit download: 38.1 Mbps</p>
+<p>d) Debit la upload: 37.5 Mbps</p>
+</div>
+<h3>Utilizarea resurselor</h3>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Untitled.jpg" style="width:50%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Untitled2.jpg" style="width:50%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="Untitled3.jpg" style="width:50%">
+</div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // 
+}
+</script>
+</body>
+</html>
